@@ -1,0 +1,20 @@
+title: Arunabh Ghosh
+description: Data Scientist & Engineer
+url: "https://arunabh98.github.io"
+baseurl: ""
+
+# Theme
+theme: minima
+
+github_username: arunabh98
+linkedin_username: arunabh98
+
+show_excerpts: true
+
+# Exclude files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - .gitignore
+  - .git/

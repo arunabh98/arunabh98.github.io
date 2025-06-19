@@ -1,0 +1,29 @@
+# Jekyll site files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ruby dependencies
+vendor/bundle/
+.bundle/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local

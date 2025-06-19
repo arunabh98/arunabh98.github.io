@@ -1,0 +1,41 @@
+---
+---
+
+@import "minima";
+
+// Typography improvements
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  color: #333;
+}
+
+// Better link color
+a {
+  color: #0066cc;
+}
+
+// Code improvements
+code {
+  background: #f5f5f5;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+// Hide duplicate name in footer
+.site-footer {
+  .footer-heading {
+    display: none;
+  }
+  
+  .p-name {
+    display: none;
+  }
+}
+
+// Hide "About" page title
+.post-title {
+  display: none;
+}
