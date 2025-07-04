@@ -26,6 +26,8 @@ My experience spans from reconstructing protein structures to developing product
 
 When I'm not building AI, I'm experimenting with new technologies, writing about complex topics, and exploring how to make them more accessible.
 
+[Explore my work →](/featured-work/)
+
 [More about me →](/about/)
 
-[Explore my work →](/featured-work/)
+[View my resume →](/resume/)
