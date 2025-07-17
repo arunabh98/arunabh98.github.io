@@ -15,18 +15,18 @@ featured: true
 
 ## The Problem
 
-Modern networks face a fundamental challenge: the same device appears under different names to different systems. When a smartphone connects to a network, one fingerprint parser might identify it as "android os," another as "sony android," and a third as "xperia E6653." 
+Modern networks face a fundamental challenge: the same device appears under different names to different systems. When a smartphone connects to a network, one [fingerprint parser](https://www.recordedfuture.com/threat-intelligence-101/vulnerability-management-threat-hunting/fingerprinting-in-cybersecurity) might identify it as "android os," another as "sony android," and a third as "xperia E6653." 
 
 This creates serious problems for network security and management. How do you write security policies or detect threats when you can't even agree on what to call a device? Today, this requires manual effort to map these different labels together—a process that doesn't scale to enterprise networks with thousands of devices.
 
 ## Our Solution
 
-This patent presents an automated system that solves entity resolution for network endpoints. Here's how it works:
+This patent presents an automated system that solves [entity resolution](https://senzing.com/what-is-entity-resolution/) for network endpoints. Here's how it works:
 
-1. **Multi-Parser Collection**: When a device connects, we extract its network fingerprint from packet headers and send it to multiple fingerprint parsers. Each parser returns its own set of labels for the device.
+1. **Multi-Parser Collection**: When a device connects, we extract its network fingerprint from [packet headers](https://www.cloudflare.com/learning/network-layer/what-is-a-packet/) and send it to multiple fingerprint parsers. Each parser returns its own set of labels for the device.
 
 2. **Entity Resolution**: We identify which labels from different parsers refer to the same entity using:
-   - String similarity metrics (cosine similarity, Jaro-Winkler distance)
+   - String similarity metrics ([cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity), [Jaro-Winkler distance](https://en.wikipedia.org/wiki/Jaro–Winkler_distance))
    - Substring detection (recognizing "linux" is less specific than "debian-linux")
    - External validation via web search engines and online encyclopedias
 
@@ -42,7 +42,7 @@ The highest-scoring label becomes the unified identity for that device.
 
 The system combines deterministic string algorithms with external knowledge sources to achieve accurate entity resolution. By querying web search engines and encyclopedias, it understands relationships between labels that simple string matching would miss—for example, that "xperia" and "sony android" are related because Xperia is a Sony product line.
 
-The architecture uses a master database with publish-subscribe updates to leaf switches, ensuring consistent device identification across the entire network. This enables precise security policies and threat detection tailored to specific device types.
+The architecture uses a master database with [publish-subscribe](https://en.wikipedia.org/wiki/Publish–subscribe_pattern) updates to [leaf switches](https://www.techtarget.com/searchdatacenter/definition/Leaf-spine), ensuring consistent device identification across the entire network. This enables precise security policies and threat detection tailored to specific device types.
 
 ## Patent Details
 
