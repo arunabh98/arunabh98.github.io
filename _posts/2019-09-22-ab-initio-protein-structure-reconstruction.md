@@ -15,19 +15,19 @@ featured: true
 
 ## The Problem: Unmixing Molecular Shapes
 
-Biological molecules are dynamic machines that constantly change shape (or "conformation") to perform their functions. When scientists use [cryo-electron microscopy](https://en.wikipedia.org/wiki/Cryogenic_electron_microscopy){:target="_blank"} (cryo-EM), they capture thousands of 2D projection images of these molecules from different angles. The core challenge is that a single sample contains a mix of these different conformations, a problem known as **structural heterogeneity**.
+Biological molecules are dynamic machines that constantly change shape (or "conformation") to perform their functions. When scientists use [cryo-electron microscopy](https://pmc.ncbi.nlm.nih.gov/articles/PMC4409659/){:target="_blank"} (cryo-EM), they capture thousands of 2D projection images of these molecules from different angles. The core challenge is that a single sample contains a mix of these different conformations, a problem known as **structural heterogeneity**.
 
 Traditional reconstruction algorithms often assume all projections come from one identical structure. This forces them to average dissimilar shapes, resulting in blurry reconstructions that obscure crucial details. Existing methods to separate conformations often require known reference structures or tedious manual classification, which is slow, biased, and can fail to identify new, undiscovered shapes.
 
 ## Our Solution: A Fully Automated Pipeline
 
-We developed an automated algorithm that solves the [ab initio reconstruction problem](https://en.wikipedia.org/wiki/Ab_initio){:target="_blank"} for heterogeneous samples without human intervention. Here's how it works:
+We developed an automated algorithm that solves the [ab initio reconstruction problem](https://guide.cryosparc.com/processing-data/all-job-types-in-cryosparc/3d-reconstruction/job-ab-initio-reconstruction){:target="_blank"} for heterogeneous samples without human intervention. Here's how it works:
 
 1. **Robust Clustering**: We first use a variant of hierarchical clustering (**single-linkage clustering**) to group projections. Unlike standard k-means, this method creates "pure" clusters that contain projections from only one conformation, even in high-noise conditions.
 
 2. **Projection Denoising**: The projections in each pure cluster are averaged and then cleaned using a patch-based [PCA denoising](https://en.wikipedia.org/wiki/Principal_component_analysis){:target="_blank"} algorithm. This produces a small set of clean, representative projections for each conformation.
 
-3. **Classification & Angle Estimation**: We use a novel combination of techniques to sort the representative projections. A **graph Laplacian-based algorithm** reveals the underlying structure of the data, allowing us to automatically determine the number of conformations present. We then use the [Helgason-Ludwig consistency conditions](https://en.wikipedia.org/wiki/Radon_transform#Radon_transform_and_the_Fourier_transform){:target="_blank"} to find initial estimates for the viewing angle of each projection.
+3. **Classification & Angle Estimation**: We use a novel combination of techniques to sort the representative projections. A **graph Laplacian-based algorithm** reveals the underlying structure of the data, allowing us to automatically determine the number of conformations present. We then use the [Helgason-Ludwig consistency conditions](https://arxiv.org/abs/1609.06604){:target="_blank"} to find initial estimates for the viewing angle of each projection.
 
 4. **Iterative Refinement**: Finally, we alternately refine the viewing angles and reconstruct the structure for each class using [filtered back-projection](https://en.wikipedia.org/wiki/Tomographic_reconstruction){:target="_blank"}. This iterative process minimizes the reconstruction error, converging on a high-fidelity model of each distinct conformation.
 
