@@ -16,18 +16,18 @@ layout: home
 }
 </style>
 
-I'm Arunabh, a data scientist at [Arista Networks](https://www.arista.com/en/), where I build AI systems that transform how engineers work with complex technical information.
+I'm Arunabh, a data scientist at [Arista Networks](https://www.arista.com/en/){:target="_blank"}, where I build AI systems that transform how engineers work with complex technical information.
 
 My focus is on bridging the gap between cutting-edge research and production-ready systems. I develop LLMs that are accurate enough for mission-critical tasks, fast enough for demanding engineers, and robust enough to handle the messy reality of technical documentation.
 
-I earned my MS from [UCLA](https://www.ucla.edu/) after my undergraduate in Electrical Engineering at [IIT Bombay](https://www.iitb.ac.in/). My background also includes research at [EPFL](https://www.epfl.ch/en/) in Switzerland and building a global learning platform for [Google Summer of Code](https://summerofcode.withgoogle.com/) that now serves thousands of students.
+I earned my MS from [UCLA](https://www.ucla.edu/){:target="_blank"} after my undergraduate in Electrical Engineering at [IIT Bombay](https://www.iitb.ac.in/){:target="_blank"}. My background also includes research at [EPFL](https://www.epfl.ch/en/){:target="_blank"} in Switzerland and building a global learning platform for [Google Summer of Code](https://summerofcode.withgoogle.com/){:target="_blank"} that now serves thousands of students.
 
-My experience spans from reconstructing protein structures to developing production AI systems. While this work has led to patents and publications, I'm most rewarded by building tools that people use to solve real-world problems.
+My experience spans from reconstructing protein structures to developing production AI systems. While this work has led to patents and [publications](https://scholar.google.com/citations?user=mNM6QnkAAAAJ&hl=en){:target="_blank"}, I'm most rewarded by building tools that people use to solve real-world problems.
 
 When I'm not building AI, I'm experimenting with new technologies, writing about complex topics, and exploring how to make them more accessible.
 
-[Explore my work →](/featured-work/)
+[See My Projects →](/featured-work/)
 
-[More about me →](/about/)
+[Read My Story →](/about/)
 
 [View my resume →](/resume/)

@@ -6,15 +6,15 @@ permalink: /about/
 
 Building things that genuinely help people solve real problems—that's what drives me.
 
-At [Arista Networks](https://www.arista.com/en/), I'm working to make technical knowledge more accessible through AI. I've always been drawn to tough engineering challenges and building systems that hold up in practice. My work sits at the intersection of AI and practical engineering, with a focus on creating robust and reliable systems.
+At [Arista Networks](https://www.arista.com/en/){:target="_blank"}, I'm working to make technical knowledge more accessible through AI. I've always been drawn to tough engineering challenges and building systems that hold up in practice. My work sits at the intersection of AI and practical engineering, with a focus on creating robust and reliable systems.
 
 ## My Journey
 
-My path in engineering started with Electrical Engineering at [IIT Bombay](https://www.iitb.ac.in/) (with a minor in Computer Science), followed by an MS in Electrical & Computer Engineering at [UCLA](https://www.ucla.edu/). 
+My path in engineering started with Electrical Engineering at [IIT Bombay](https://www.iitb.ac.in/){:target="_blank"} (with a minor in Computer Science), followed by an MS in Electrical & Computer Engineering at [UCLA](https://www.ucla.edu/){:target="_blank"}. 
 
-Along the way, I've worked on a diverse range of projects—from building an autonomous mapping robot (the 2π-Mapper) and developing the main app for [Mood Indigo](https://moodi.org/) festival at IIT Bombay, to reconstructing protein structures with tomographic techniques and working on visualization algorithms at the [Chan Zuckerberg Biohub](https://www.czbiohub.org/).
+Along the way, I've worked on a diverse range of projects—from building an autonomous mapping robot (the 2π-Mapper) and developing the main app for [Mood Indigo](https://moodi.org/){:target="_blank"} festival at IIT Bombay, to reconstructing protein structures with tomographic techniques and working on visualization algorithms at the [Chan Zuckerberg Biohub](https://www.czbiohub.org/){:target="_blank"}.
 
-I've been fortunate to learn from incredible people at IIT Bombay, [EPFL](https://www.epfl.ch/en/), and through programs like [Google Summer of Code](https://summerofcode.withgoogle.com/), who have shaped my approach to problem-solving and engineering.
+I've been fortunate to learn from incredible people at IIT Bombay, [EPFL](https://www.epfl.ch/en/){:target="_blank"}, and through programs like [Google Summer of Code](https://summerofcode.withgoogle.com/){:target="_blank"}, who have shaped my approach to problem-solving and engineering.
 
 ## Current Focus
 
