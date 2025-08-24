@@ -1,0 +1,16 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    <div class="footer-content">
+      <p class="footer-description">{{ site.description | escape }}</p>
+      
+      <div class="footer-social">
+        {%- include social.html -%}
+      </div>
+      
+      <p class="footer-copyright">&copy; 2025 {{ site.title | escape }}. All rights reserved.</p>
+    </div>
+  </div>
+
+</footer>

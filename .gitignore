@@ -27,3 +27,6 @@ vendor/bundle/
 .env
 .env.local
 .env.*.local
+
+# Claude Code configuration
+CLAUDE.md

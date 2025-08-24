@@ -18,3 +18,4 @@ exclude:
   - LICENSE
   - .gitignore
   - .git/
+  - CLAUDE.md

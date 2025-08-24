@@ -24,31 +24,76 @@ code {
   font-size: 0.9em;
 }
 
-// Hide duplicate name in footer and center content
+// Professional, cohesive footer design
 .site-footer {
-  .footer-heading {
-    display: none;
-  }
+  border-top: 1px solid #e8e8e8;
+  padding: 28px 0 24px 0;
+  background-color: #fcfcfc;
+  margin-top: 60px;
   
-  .p-name {
-    display: none;
-  }
-  
-  .footer-col-1 {
-    display: none;
-  }
-  
-  .footer-col-wrapper {
+  .footer-content {
     text-align: center;
     
-    .footer-col {
-      float: none;
-      width: 100%;
-      padding: 0;
+    .footer-description {
+      font-size: 15px;
+      color: #555;
+      margin: 0 0 18px 0;
+      font-weight: 300;
+      letter-spacing: 0.25px;
     }
     
-    .social-media-list {
-      margin-bottom: 10px;
+    .footer-social {
+      margin-bottom: 20px;
+      
+      .social-media-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+        li {
+          display: inline-block;
+          margin: 0 10px;
+          
+          a {
+            color: #6c757d;
+            transition: all 0.2s ease;
+            display: inline-block;
+            padding: 4px;
+            
+            &:hover {
+              color: #0066cc;
+              text-decoration: none;
+              transform: translateY(-2px);
+              
+              .svg-icon {
+                fill: #0066cc;
+              }
+            }
+            
+            .username {
+              display: none;
+            }
+            
+            .svg-icon {
+              width: 20px;
+              height: 20px;
+              fill: #6c757d;
+              transition: fill 0.2s ease;
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+    }
+    
+    .footer-copyright {
+      font-size: 12px;
+      color: #6c757d;
+      margin: 0;
+      padding-top: 12px;
+      border-top: 1px solid #efefef;
+      letter-spacing: 0.2px;
+      font-weight: 400;
     }
   }
 }
