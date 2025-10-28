@@ -24,10 +24,4 @@ I earned my MS from [UCLA](https://www.ucla.edu/){:target="_blank"} after my und
 
 My experience spans from reconstructing protein structures to developing production AI systems. While this work has led to patents and [publications](https://scholar.google.com/citations?user=mNM6QnkAAAAJ&hl=en){:target="_blank"}, I'm most rewarded by building tools that people use to solve real-world problems.
 
-When I'm not building AI, I'm experimenting with new technologies, writing about complex topics, and exploring how to make them more accessible.
-
-[See My Projects →](/featured-work/)
-
-[Read My Story →](/about/)
-
-[View my resume →](/resume/)
+When I'm not building AI, I enjoy experimenting with new technologies and writing to make complex topics more accessible. You can also often find me in the kitchen, trying out new recipes.

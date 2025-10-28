@@ -26,11 +26,13 @@ These days, I'm deep into:
 
 This work has resulted in patents and publications spanning AI systems, network security, and imaging algorithms—which has been incredibly rewarding.
 
-## Beyond the Code
+## Beyond My Day Job
 
 I'm constantly exploring new applications of AI, experimenting with agent orchestration frameworks, and building tools that make everyday tasks easier. Technical competitions and hackathons have been a great way to rapidly prototype and learn new technologies.
 
 Teaching has also been a significant part of my journey. As a TA at UCLA for courses including Neural Networks & Deep Learning, I discovered how much I enjoy making complex topics accessible. During Google Summer of Code, I built a learning platform that now serves thousands of students globally—a project that continues to remind me of the lasting impact good engineering can have.
+
+Outside of work, I enjoy cooking and experimenting with recipes from different cuisines.
 
 ## Let's Connect
 
