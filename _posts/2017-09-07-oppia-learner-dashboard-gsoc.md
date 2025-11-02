@@ -4,7 +4,7 @@ title: "Building the Oppia Learner Dashboard"
 subtitle: "A Personalized Hub for Long-Term Learner Engagement"
 date: 2017-09-07 10:00:00 -0800
 categories: [projects, open-source]
-tags: [google-summer-of-code, gsoc, oppia, education, python, angularjs, open-source]
+tags: [full-stack, open-source, education, gsoc]
 excerpt: "A foundational project for the Oppia Foundation during Google Summer of Code 2017 to build a centralized dashboard, enhancing user retention and creating a personalized learning journey."
 author: Arunabh Ghosh
 toc: true

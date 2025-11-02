@@ -4,7 +4,7 @@ title: "Multi-Agent AI Systems Tackle Personal Finance"
 subtitle: "Using Autogen's MagenticOne Framework to Build an Experimental AI System for Financial Analysis and Planning"
 date: 2025-04-25 10:00:00 -0800
 categories: [projects, ai]
-tags: [agents, ai, llm, financial-planning, autogen, magneticone, project]
+tags: [multi-agent, ai, financial-planning, autogen]
 excerpt: "An experiment using specialized AI agents, orchestrated to work together and provide more comprehensive insights than a single Large Language Model (LLM) might provide alone."
 author: Arunabh Ghosh
 toc: true
@@ -27,7 +27,7 @@ Personal finance decision making often involves various multi-faceted problems: 
 
 ## The Promise of AI Agent Orchestration
 
-Recent AI advancements favor systems of specialized agents collaborating on complex tasks over monolithic models. Frameworks like **[Autogen](https://www.microsoft.com/en-us/research/project/autogen/){:target="_blank"}**, **CrewAI**, and **LangGraph** facilitate this [multi-agent](https://www.ibm.com/think/topics/multiagent-system){:target="_blank"} approach, enabling more sophisticated problem-solving via *orchestration*—the management of agent communication, context, and task execution allowing agents to build upon each other's work in cohesive workflows.
+Recent AI advancements favor systems of specialized agents collaborating on complex tasks over monolithic models. Frameworks like **[Autogen](https://www.microsoft.com/en-us/research/project/autogen/){:target="_blank"}**, **CrewAI**, and **LangGraph** facilitate this [multi-agent](https://www.ibm.com/think/topics/multiagent-system){:target="_blank"} approach, enabling more sophisticated problem-solving via *orchestration*: the management of agent communication, context, and task execution allowing agents to build upon each other's work in cohesive workflows.
 
 ## My Experiment: A Financial Planning Agent System
 
@@ -186,7 +186,7 @@ The **Financial Advisor Agent** looked at all the messages till now and provided
 > - Remember that the projection uses an average return; actual returns will vary. Inflation (estimated at 2.8% currently) will erode purchasing power.
 > - Consider strategies for maximizing Social Security benefits, potentially by delaying claims if possible.
 
-**Outcome**: This example highlights the orchestrator directing specialized agents to perform specific tasks. The **Web Search Agent's** findings informed the **Code Writer's** parameters. The code results, along with the web search results, formed the basis for the **Financial Advisor's** analysis. This resulted in an integration of up-to-date data with projections—a task challenging for a single model.
+**Outcome**: This example highlights the orchestrator directing specialized agents to perform specific tasks. The **Web Search Agent's** findings informed the **Code Writer's** parameters. The code results, along with the web search results, formed the basis for the **Financial Advisor's** analysis. This resulted in an integration of up-to-date data with projections, a task challenging for a single model.
 
 <br>
 

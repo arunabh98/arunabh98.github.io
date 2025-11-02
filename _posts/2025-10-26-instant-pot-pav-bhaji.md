@@ -4,8 +4,8 @@ title: "Instant Pot Pav Bhaji"
 subtitle: "Classic Mumbai street food made easy at home"
 date: 2025-10-26 08:00:00 -0800
 categories: [recipes]
-tags: [indian, instant-pot, vegetarian, street-food, comfort-food]
-excerpt: "A delicious and authentic Pav Bhaji recipe made in the Instant Pot. This popular Mumbai street food features a spiced vegetable mash served with butter-toasted buns."
+tags: [indian, instant-pot, vegetarian, street-food]
+excerpt: "A delicious Pav Bhaji recipe made in the Instant Pot. This popular Mumbai street food features a spiced vegetable mash served with butter-toasted buns."
 author: Arunabh Ghosh
 ---
 

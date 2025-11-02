@@ -4,7 +4,7 @@ title: "Network Endpoint Entity Resolution Patent"
 subtitle: "Automated Device Identity Resolution for Large-Scale Networks"
 date: 2023-10-24 10:00:00 -0800
 categories: [projects, patents]
-tags: [patents, networking, security, entity-resolution, arista-networks]
+tags: [networking, security, patents, entity-resolution]
 excerpt: "A patented system that automatically resolves device identity ambiguity at scale, enabling precise security policies without manual configuration."
 author: Arunabh Ghosh
 toc: true

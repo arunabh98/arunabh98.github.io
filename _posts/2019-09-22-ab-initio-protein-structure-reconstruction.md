@@ -4,7 +4,7 @@ title: "Ab Initio Protein Structure Reconstruction"
 subtitle: "Automated Multi-Conformation Recovery from Cryo-EM Projections"
 date: 2019-09-22 10:00:00 -0800
 categories: [research, publications]
-tags: [cryo-em, tomography, protein-structure, machine-learning, image-processing, iit-bombay]
+tags: [cryo-em, computer-vision, machine-learning, ieee-icip]
 excerpt: "A novel algorithm that automatically reconstructs multiple protein conformations from mixed 2D projections without knowing viewing angles or the number of structures present."
 author: Arunabh Ghosh
 toc: true
