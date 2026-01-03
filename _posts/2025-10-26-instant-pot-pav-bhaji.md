@@ -72,7 +72,7 @@ Pav Bhaji is one of my favorite comfort foods - a spiced, buttery vegetable mash
 
 5. **Add spices:** Add pav bhaji masala, red chili powder, and turmeric. Mix well.
 
-6. **Add vegetables:** Add all the vegetables – potatoes, carrots, cauliflower, and peas.
+6. **Add vegetables:** Add all the vegetables - potatoes, carrots, cauliflower, and peas.
 
 7. **Deglaze:** Pour 2 cups of water and deglaze the pot by scrubbing the bottom with a wooden spatula to remove any stuck bits.
 
