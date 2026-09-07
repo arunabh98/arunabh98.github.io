@@ -9,7 +9,7 @@ excerpt: "A delicious Pav Bhaji recipe made in the Instant Pot. This popular Mum
 author: Arunabh Ghosh
 ---
 
-<img src="{{ '/assets/images/posts/2025-pav-bhaji/pav-bhaji.png' | relative_url }}" alt="Pav Bhaji" style="float: right; width: 350px; border-radius: 12px; margin: 0 0 20px 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" class="recipe-image">
+<img src="{{ '/assets/images/posts/2025-pav-bhaji/pav-bhaji.jpg' | relative_url }}" alt="Pav Bhaji" style="float: right; width: 350px; border-radius: 12px; margin: 0 0 20px 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" class="recipe-image">
 
 <style>
 @media (max-width: 768px) {

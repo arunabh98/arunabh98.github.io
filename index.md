@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Arunabh Ghosh" style="float: right; width: 200px; height: 200px; border-radius: 50%; margin: 0 0 20px 30px; object-fit: cover;" class="profile-image">
+<img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Arunabh Ghosh" style="float: right; width: 200px; height: 200px; border-radius: 50%; margin: 0 0 20px 30px; object-fit: cover;" class="profile-image">
 
 <style>
 @media (max-width: 768px) {

@@ -11,6 +11,19 @@ linkedin_username: arunabh98
 
 show_excerpts: true
 
+# Nav bar contents and order (keeps 404 and future pages out of the nav)
+header_pages:
+  - about.md
+  - featured-work.md
+  - recipes.md
+  - resume.md
+
+# Plugins (all whitelisted by GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 # Exclude files from build
 exclude:
   - Gemfile

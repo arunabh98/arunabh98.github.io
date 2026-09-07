@@ -9,7 +9,7 @@
         {%- include social.html -%}
       </div>
       
-      <p class="footer-copyright">&copy; 2025 {{ site.title | escape }}. All rights reserved.</p>
+      <p class="footer-copyright">&copy; {{ site.time | date: "%Y" }} {{ site.title | escape }}. All rights reserved.</p>
     </div>
   </div>
 
