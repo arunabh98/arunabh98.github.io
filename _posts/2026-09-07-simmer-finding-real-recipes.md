@@ -26,7 +26,7 @@ You describe what's in your kitchen in your own words, for example *"Broccoli, s
 ![Simmer's recommendation for broccoli, cashews, and mint: Malai Broccoli, with the reasoning, the missing ingredients, and a link to the original recipe](/assets/images/posts/2026-simmer-recipe-search/simmer-recommendation.jpg)
 *Simmer answering a real request: the dish, why it fits, what is missing, and a link to the original recipe*
 
-If typing all of it out is tedious, there is a camera button instead: point it at your fridge, up to five photos, and Claude turns them into ingredients you can edit and remove before searching. The images are analyzed in memory and never stored.
+If typing all of it out is tedious, there is a camera button instead: point it at your fridge, up to five photos, and Simmer turns them into a list of ingredients you can edit and remove before searching. The images are analyzed in memory and never stored.
 
 ## How It Works
 
@@ -44,7 +44,7 @@ One detail took a while to get right: **negations never go into the search query
 
 **5. Recommend.** A final call turns the usable candidates into what you actually read: the dish, why it fits, missing items marked *essential* or *nice to have* with a substitution where one exists, which page to follow, and a few alternatives with a line each on when you would prefer them.
 
-One precaution worth mentioning: the links never come from the model. It refers to recipes by number, and Simmer attaches the real titles and URLs afterwards from the search results, so it cannot send you to a recipe that doesn't exist.
+Every link Simmer returns is a real page it actually found. The model never writes a URL; it refers to recipes by number, and Simmer attaches the real titles and URLs afterwards from the search results. There is no way for it to invent a recipe or point you at a page that doesn't exist.
 
 ## Knowing Whether It Works
 
