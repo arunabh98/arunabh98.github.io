@@ -19,10 +19,10 @@ I've been fortunate to learn from incredible people at IIT Bombay, [EPFL](https:
 ## Current Focus
 
 These days, I'm deep into:
-- Building AI systems that help engineers navigate complex technical problems
-- Developing robust RAG architectures for production environments
-- Creating multi-agent systems that can handle complex workflows (it's fascinating how they can transform tasks like research and financial planning)
-- Ensuring AI tools are reliable enough for mission-critical applications
+- Building AI agents that can work through a hard problem step by step, instead of answering one question at a time
+- Connecting those agents to the right information, so their answers are grounded in real sources
+- Measuring whether AI systems actually get things right, and catching problems before users do
+- Making AI tools practical for everyday work: fast, affordable, and careful with sensitive data
 
 This work has resulted in patents and publications spanning AI systems, network security, and imaging algorithms, which has been incredibly rewarding.
 
@@ -30,10 +30,10 @@ This work has resulted in patents and publications spanning AI systems, network 
 
 I'm constantly exploring new applications of AI, experimenting with agent orchestration frameworks, and building tools that make everyday tasks easier. Technical competitions and hackathons have been a great way to rapidly prototype and learn new technologies.
 
-Teaching has also been a significant part of my journey. As a TA at UCLA for courses including Neural Networks & Deep Learning, I discovered how much I enjoy making complex topics accessible. During Google Summer of Code, I built a learning platform that now serves thousands of students globally. This project continues to remind me of the lasting impact good engineering can have.
+Teaching has also been a significant part of my journey. As a TA at UCLA for courses including Neural Networks & Deep Learning, I discovered how much I enjoy making complex topics accessible. During Google Summer of Code, I built the [learner dashboard for Oppia]({% post_url 2017-09-07-oppia-learner-dashboard-gsoc %}), a free learning platform used by students around the world. This project continues to remind me of the lasting impact good engineering can have.
 
-Outside of work, I enjoy cooking and experimenting with recipes from different cuisines.
+Outside of work, I enjoy cooking and experimenting with recipes from different cuisines. That led to one of my side projects: [Simmer]({% post_url 2026-09-07-simmer-finding-real-recipes %}), an open source tool that turns a photo of your fridge into real recipes you can make, each linked to its source.
 
 ## Let's Connect
 
-I'm always excited to discuss practical AI applications, especially around LLMs, agent systems, and building tools that genuinely help people. Feel free to reach out if you'd like to chat about AI, engineering, or anything in between.
+I'm always excited to discuss practical AI applications, especially around agents, search and retrieval, and building tools that genuinely help people. Feel free to reach out if you'd like to chat about AI, engineering, or anything in between.
