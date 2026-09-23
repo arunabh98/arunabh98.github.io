@@ -16,7 +16,6 @@ header_pages:
   - about.md
   - featured-work.md
   - recipes.md
-  - resume.md
 
 # Plugins (all whitelisted by GitHub Pages)
 plugins:
