@@ -11,6 +11,11 @@ body {
   color: #333;
 }
 
+// Avoid single-word last lines in paragraphs and list items
+p, li {
+  text-wrap: pretty;
+}
+
 // Better link color
 a {
   color: #0066cc;
